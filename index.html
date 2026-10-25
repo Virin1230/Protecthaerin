@@ -3,8 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+ <link rel="apple-touch-icon" href="https://i.postimg.cc/T1mkrYZ4/84.jpg">
 <meta name="theme-color" content="#d5d6d6">
-<title>我的 iPhone</title>
+<title>保护海粼</title>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <style>
 :root{
   --blue:#007aff;--green:#34c759;--red:#ff3b30;--gray:#8e8e93;
@@ -879,11 +885,10 @@ body{display:flex;justify-content:center;align-items:center}
       <div class="kkt-room-top">
         <button class="kkt-room-back" onclick="closeKktRoom()">‹</button>
         <div class="kkt-room-title">
-          <strong id="kktRoomName">聊天对象</strong>
-          <span class="kkt-room-sub" id="kktRoomSub">1:1 聊天</span>
+          <strong id="kktRoomName">聊天对象</strong></span><span class="kkt-room-sub" id="kktRoomSub"><聊天/span>
         </div>
         <div class="kkt-room-actions">
-          <span onclick="triggerBannerNotification('KakaoTalk', '聊天室设置', '已保存历史记录')">☰</span>
+          <span onclick="triggerBannerNotification('KakaoTalk', '聊天室设置', '已保存历史记录')">☰
         </div>
       </div>
 
@@ -2767,7 +2772,7 @@ const I18N = {
     weather_city: '首尔', weather_forecast: '多云间晴<br>最高 28° 最低 21°',
     sleep_title: '◷ 作息', sleep_bottom: '晚自习时间<strong>19:00 - 22:00</strong>', lock_week: '本周 <strong>78%</strong>',
     kkt_chats: '聊天', kkt_friends: '好友', kkt_notices: '公告',
-    kkt_room_sub: '1:1 聊天', kkt_group_sub: '群聊 · 6人',
+    kkt_room_sub: '...', kkt_group_sub: '群聊 · 6人',
     chat_empty_title: '暂无聊天', chat_empty_sub: '新的消息会出现在这里',
     no_message: '暂无消息', me_prefix: '我: ',
     waiting: '等待新消息中…', choose_hint: '请点击下方选项回复', choice_label: '选择回复',
@@ -2787,7 +2792,7 @@ const I18N = {
     weather_city: '首爾', weather_forecast: '多雲間晴<br>最高 28° 最低 21°',
     sleep_title: '◷ 作息', sleep_bottom: '晚自習時間<strong>19:00 - 22:00</strong>', lock_week: '本週 <strong>78%</strong>',
     kkt_chats: '聊天', kkt_friends: '好友', kkt_notices: '公告',
-    kkt_room_sub: '1:1 聊天', kkt_group_sub: '群組聊天 · 6人',
+    kkt_room_sub: '...', kkt_group_sub: '群組聊天 · 6人',
     chat_empty_title: '暫無聊天', chat_empty_sub: '新的訊息會出現在這裡',
     no_message: '暫無訊息', me_prefix: '我: ',
     waiting: '等待新訊息中…', choose_hint: '請點擊下方選項回覆', choice_label: '選擇回覆',
@@ -2807,7 +2812,7 @@ const I18N = {
     weather_city: '서울', weather_forecast: '구름 조금<br>최고 28° 최저 21°',
     sleep_title: '◷ 생활', sleep_bottom: '야자 시간<strong>19:00 - 22:00</strong>', lock_week: '이번 주 <strong>78%</strong>',
     kkt_chats: '채팅', kkt_friends: '친구', kkt_notices: '공지',
-    kkt_room_sub: '1:1 채팅', kkt_group_sub: '그룹 채팅 · 6명',
+    kkt_room_sub: '...', kkt_group_sub: '그룹 채팅 · 6명',
     chat_empty_title: '채팅 없음', chat_empty_sub: '새 메시지가 여기에 표시됩니다',
     no_message: '메시지 없음', me_prefix: '나: ',
     waiting: '새 메시지를 기다리는 중…', choose_hint: '아래에서 답장을 선택하세요', choice_label: '답장 선택',
